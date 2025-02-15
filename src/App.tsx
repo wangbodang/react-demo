@@ -1,4 +1,5 @@
 import './App.css'
+import Calculator from "./calculator";
 import Counter from './components/Counter'
 import ShowName from './components/ShowName'
 import { DemoProvider } from './utils/context'
@@ -29,6 +30,7 @@ function App() {
 
   return (
     <DemoProvider>
+      <Calculator />
       <Counter />
       <ShowName />
     </DemoProvider>
