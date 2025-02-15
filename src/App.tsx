@@ -1,5 +1,5 @@
 import './App.css'
-import Calculator from "./calculator";
+import Calculator from "./components/Calculator";
 import Counter from './components/Counter'
 import ShowName from './components/ShowName'
 import { DemoProvider } from './utils/context'
